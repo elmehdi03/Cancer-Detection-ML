@@ -25,3 +25,9 @@ Utiliser des techniques d’apprentissage automatique (supervisées et non super
 - **XGBoost & SVM** atteignent une précision de **88 %** sur le jeu de test
 - Les méthodes non supervisées donnent des résultats prometteurs mais moins robustes
 - Visualisations projetées via PCA pour interprétation
+
+---
+
+## Données
+
+Les données d'expression génique utilisées dans ce projet proviennent de l'étude [GSE19804](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19804). 
