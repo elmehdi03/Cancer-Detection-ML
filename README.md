@@ -31,3 +31,11 @@ Utiliser des techniques d’apprentissage automatique (supervisées et non super
 ## Données
 
 Les données d'expression génique utilisées dans ce projet proviennent de l'étude [GSE19804](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19804). 
+Elles sont aussi disponibles sous forme compressée : `GSE19804_series_matrix.txt.gz`.
+
+Pour l'utiliser, décompressez ce fichier :
+- Sous Windows : clic droit > Extraire
+- En terminal : `gunzip GSE19804_series_matrix.txt.gz`
+
+Une fois extrait, le fichier `GSE19804_series_matrix.txt` pourra être utilisé sans modification du notebook.
+
