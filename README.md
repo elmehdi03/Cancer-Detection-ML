@@ -49,6 +49,8 @@ Ce projet inclut également une interface interactive développée avec **Stream
 
 📄 Le fichier Streamlit est disponible ici : `streamlit_app_final.py`
 
+📄 Le fichier utilisé en app streamlitest disponible sous le nom : `expression_labelled`
+
 ➡️ Pour lancer l'application :
 
 ```bash
