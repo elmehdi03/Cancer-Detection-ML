@@ -49,7 +49,7 @@ Ce projet inclut également une interface interactive développée avec **Stream
 
 📄 Le fichier Streamlit est disponible ici : `streamlit_app_final.py`
 
-📄 Le fichier utilisé en app streamlitest disponible sous le nom : `expression_labelled`
+📄 Le fichier utilisé en app streamlitest disponible en format zip sous le nom : `expression_labelled.zip`
 
 ➡️ Pour lancer l'application :
 
