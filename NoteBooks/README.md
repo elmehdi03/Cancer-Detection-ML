@@ -4,7 +4,7 @@ This directory contains Jupyter notebooks for data exploration and analysis.
 
 ## Notebooks
 
-- `01_exploration_GSE19804.ipynb` - Main analysis notebook including:
+- `cancer_detection_pipeline.ipynb` - Main analysis notebook including:
   - Data cleaning and preprocessing
   - Unsupervised learning (Isolation Forest, LOF, Autoencoder)
   - Supervised learning (SVM, XGBoost)

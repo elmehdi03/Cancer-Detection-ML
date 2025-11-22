@@ -28,11 +28,11 @@ Cancer-Detection-ML/
 │   ├── GSE19804_series_matrix.txt  # Données d'expression génique
 │   └── expression_labelled.csv     # Données avec labels
 ├── notebooks/                      # Notebooks Jupyter
-│   └── 01_exploration_GSE19804.ipynb
+│   └── cancer_detection_pipeline.ipynb
 ├── scripts/                        # Scripts Python
-│   └── ajouter_label_binaire.py
+│   └── add_binary_label.py
 ├── app/                            # Application Streamlit
-│   └── streamlit_app_final.py
+│   └── streamlit_app.py
 ├── requirements.txt                # Dépendances Python
 ├── .gitignore                      # Fichiers à ignorer
 ├── LICENSE                         # License MIT
@@ -98,14 +98,14 @@ Voir [data/README.md](data/README.md) pour plus de détails.
 
 Ouvrir le notebook principal :
 ```bash
-jupyter notebook notebooks/01_exploration_GSE19804.ipynb
+jupyter notebook notebooks/cancer_detection_pipeline.ipynb
 ```
 
 ### Application Streamlit
 
 Lancer l'application web interactive :
 ```bash
-streamlit run app/streamlit_app_final.py
+streamlit run app/streamlit_app.py
 ```
 
 L'application permet de :

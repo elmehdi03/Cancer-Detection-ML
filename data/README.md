@@ -20,9 +20,9 @@ Raw gene expression data from GEO database.
 ### 2. **expression_labelled.csv** (~50 MB)
 Processed data with cancer/healthy labels (generated from notebook).
 
-This file is created by running the notebook `01_exploration_GSE19804.ipynb` or can be generated using the script:
+This file is created by running the notebook `cancer_detection_pipeline.ipynb` or can be generated using the script:
 ```bash
-python scripts/ajouter_label_binaire.py
+python scripts/add_binary_label.py
 ```
 
 ## 📊 Data Description

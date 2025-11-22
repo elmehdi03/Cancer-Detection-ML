@@ -4,7 +4,7 @@ This directory contains the Streamlit application for interactive model testing.
 
 ## Files
 
-- `streamlit_app_final.py` - Main Streamlit application
+- `streamlit_app.py` - Main Streamlit application
 
 ## Running the App
 
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ### Run the app:
 ```bash
 # From project root:
-streamlit run app/streamlit_app_final.py
+streamlit run app/streamlit_app.py
 ```
 
 The app will open in your default browser at `http://localhost:8501`
@@ -54,7 +54,7 @@ Use `../data/expression_labelled.csv` to test the app (includes Label column for
 To deploy on Streamlit Cloud:
 1. Push your code to GitHub
 2. Visit [share.streamlit.io](https://share.streamlit.io)
-3. Connect your repository and select `app/streamlit_app_final.py`
+3. Connect your repository and select `app/streamlit_app.py`
 4. Deploy!
 
 **Note**: For deployment, you may need to:

@@ -4,14 +4,14 @@ This directory contains Python scripts for data processing and utilities.
 
 ## Scripts
 
-- `ajouter_label_binaire.py` - Adds binary labels (Cancer/Healthy) to the dataset
+- `add_binary_label.py` - Adds binary labels (Cancer/Healthy) to the dataset
 
 ## Usage
 
 Run scripts from the project root directory:
 
 ```bash
-python scripts/ajouter_label_binaire.py
+python scripts/add_binary_label.py
 ```
 
 ## Adding New Scripts
