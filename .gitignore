@@ -34,17 +34,25 @@ venv.bak/
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
-# Data files
+# Data files (large files should not be in Git)
 *.csv
 *.txt
+!requirements.txt
+!LICENSE
 *.gz
 *.zip
 *.h5
 *.hdf5
 *.parquet
-expression_labelled.csv
-GSE19804_series_matrix.txt
-expression_labelled.zip
+
+# Specific large data files
+data/expression_labelled.csv
+data/expression_labelled.zip
+data/GSE19804_series_matrix.txt
+data/expression_clean.csv
+
+# Keep README files in data directory
+!data/README.md
 
 # Models
 *.pkl
