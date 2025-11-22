@@ -54,7 +54,7 @@ data/expression_clean.csv
 # Keep README files in data directory
 !data/README.md
 
-# Models
+# Models (trained models should not be in Git - too large)
 *.pkl
 *.pickle
 *.joblib
@@ -62,6 +62,14 @@ data/expression_clean.csv
 *.keras
 *.pt
 *.pth
+models/supervised/*.pkl
+models/unsupervised/*.pkl
+models/unsupervised/*.h5
+models/preprocessing/*.pkl
+
+# Keep README files in models directory
+!models/README.md
+!models/**/README.md
 
 # IDE
 .vscode/
