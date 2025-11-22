@@ -72,13 +72,25 @@ pip install -r requirements.txt
 
 Les données d'expression génique utilisées dans ce projet proviennent de l'étude [GSE19804](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19804).
 
-Elles sont disponibles dans le dossier `data/`, sous forme compressée : `GSE19804_series_matrix.txt.gz`.
+**⚠️ Note importante** : Les fichiers de données ne sont pas inclus dans ce dépôt Git en raison de leur taille (~50 MB).
 
-Pour l'extraire :
-- **Windows** : clic droit > Extraire
-- **Terminal** : `gunzip data/GSE19804_series_matrix.txt.gz`
+### Téléchargement des données
 
-Une fois extrait, le fichier `GSE19804_series_matrix.txt` pourra être utilisé directement dans le notebook.
+1. **Télécharger depuis NCBI GEO** :
+   - Visiter [GSE19804](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19804)
+   - Cliquer sur "Download family" → "Series Matrix File(s)"
+   - Télécharger `GSE19804_series_matrix.txt.gz`
+
+2. **Extraire le fichier** :
+   - **Windows** : clic droit > Extraire tout
+   - **Terminal** : `gunzip GSE19804_series_matrix.txt.gz`
+
+3. **Placer dans le dossier** :
+   - Copier `GSE19804_series_matrix.txt` dans le dossier `data/`
+
+Une fois téléchargé et extrait, le fichier pourra être utilisé directement dans le notebook.
+
+Voir [data/README.md](data/README.md) pour plus de détails.
 
 ## 🔬 Utilisation
 
